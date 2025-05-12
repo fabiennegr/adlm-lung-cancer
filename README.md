@@ -4,9 +4,10 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Run Locally](#run-locally)
-3. [Execution on a Server](#execution-on-a-server)
-4. [Project Structure](#project-structure)
+2. [Abstract](#abstract)
+3. [Run Locally](#run-locally)
+4. [Execution on a Server](#execution-on-a-server)
+5. [Project Structure](#project-structure)
 
 ---
 
@@ -14,7 +15,7 @@
 
 In the winter semester of 2023/2024, we took a course at TU Munich called [Practical Course: Applied Deep Learning in Medicine](https://aim-lab.io/theses/practical/). As part of this course, we were assigned a project that focused on developing a deep learning framework for lung cancer diagnosis using low-dose CT scans and associated clinical metadata. The objective was to explore and evaluate the effectiveness of multimodal learning approaches in enhancing malignancy prediction.
 
-### Abstract
+## Abstract
 
 Lung cancer is the leading cause of cancer-related mortality worldwide. For its effective treatment, it is crucial to catch it at an early stage. Lung cancer screening, employing  low-dose Computed Tomography (CT) scans, has demonstrated considerable efficacy in decreasing mortality rates associated with lung cancer by identifying malignant pulmonary nodules at an earlier phase. In addition, Machine Learning and Deep learning approaches have shown promise in classifying lung cancer from Lung CT. However, most of the existing approaches are fundamentally limited as they fail to capture the information  provided by the metadata of the patients. Multimodal learning generally outperforms single-modality models in disease diagnosis and prediction. This is particularly true in lung cancer, which is heavily contextualized through non-imaging risk factors.
 
