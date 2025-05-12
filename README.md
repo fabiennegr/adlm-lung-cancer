@@ -91,7 +91,7 @@ python scripts/file-name.py
 
 - `configs`: Contains the configuration files for the model and the dataset.
 - `data`: Contains the dataset. Most of the data are confidential and hence not included in the repository. They can be accessed from the server.
-- `documentation`: Contains detailed project documentation, including the project report, final poster and presentations
+- `documentation`: Contains detailed project documentation, including the project report and final poster
 - `scripts`: Contains the scripts used for the job submission to the server, and preprocessing codes.
 - `src`: Contains the source code for the project. The `train_multimodal.py` file is the main file for training the model. Inside the `src` directory, the `data` directory contains the lightning data modules to load the data, the `models` directory contains the model, and code for forward pass, and the `utils` directory contains the utility functions used in our work.
 - `notebooks`: Contains the notebooks used for the exploratory data analysis and some pre-processing steps.
