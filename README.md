@@ -1,4 +1,24 @@
 # Lung Cancer Risk Prediction Using Multimodal Deep Learning
+###### <h6 align="right"> - A group project by Julian Link, Prasanga Dhungel, Fabienne Greier from TU - Munich</h6>
+
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Run Locally](#run-locally)
+3. [Execution on a Server](#execution-on-a-server)
+4. [Project Structure](#project-structure)
+
+---
+
+## Introduction
+
+In the winter semester of 2023/2024, we took a course at TU Munich called [Practical Course: Applied Deep Learning in Medicine](https://aim-lab.io/theses/practical/). As part of this course, we were assigned a project that focused on developing a deep learning framework for lung cancer diagnosis using low-dose CT scans and associated clinical metadata. The objective was to explore and evaluate the effectiveness of multimodal learning approaches in enhancing malignancy prediction.
+
+### Abstract
+
+Lung cancer is the leading cause of cancer-related mortality worldwide. For its effective treatment, it is crucial to catch it at an early stage. Lung cancer screening, employing  low-dose Computed Tomography (CT) scans, has demonstrated considerable efficacy in decreasing mortality rates associated with lung cancer by identifying malignant pulmonary nodules at an earlier phase. In addition, Machine Learning and Deep learning approaches have shown promise in classifying lung cancer from Lung CT. However, most of the existing approaches are fundamentally limited as they fail to capture the information  provided by the metadata of the patients. Multimodal learning generally outperforms single-modality models in disease diagnosis and prediction. This is particularly true in lung cancer, which is heavily contextualized through non-imaging risk factors.
+
+In this work, we show that combining different levels of features, including clinical metadata and imaging data at the lung and nodule levels, provides a good estimation of malignancy, surpassing the predictive capability of utilizing these data sources independently. Furthermore, our analysis reveals superior performance when employing a feature extractor pretrained specifically on lung CTs compared to one pretrained on alternative domains.
 
 ## Run Locally
 
@@ -73,3 +93,5 @@ python scripts/file-name.py
 - `scripts`: Contains the scripts used for the job submission to the server, and preprocessing codes.
 - `src`: Contains the source code for the project. The `train_multimodal.py` file is the main file for training the model. Inside the `src` directory, the `data` directory contains the lightning data modules to load the data, the `models` directory contains the model, and code for forward pass, and the `utils` directory contains the utility functions used in our work.
 - `notebooks`: Contains the notebooks used for the exploratory data analysis and some pre-processing steps.
+
+##### Disclaimer: Since this is a course project, the files have been hidden to eliminate any possibility of malpractice from future course attendees.
