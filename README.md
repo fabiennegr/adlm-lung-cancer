@@ -26,8 +26,16 @@ In this work, we show that combining different levels of features, including cli
 ### Pre-processing Pipeline
 The outline of our pre-processing pipeline involves the identification of candidate nodules, followed by the selection of the top five most confident nodules situated within the lung region.
 
-### Multimodal Approach
+<p align="center">
+  <img src="../main/documentation/Preprocessing.png" width="500" alt="Pre-processing Pipeline">
+</p>
+
+### Training Pipeline
 For our Multimodal Approach, we integrate this nodule-level data with lung-level and clinical metadata. Feature extraction from nodules and lung images is accomplished using MedicalNet and Pretrained ResNet 3D, respectively, while neural networks are employed to embed the metadata.
+
+<p align="center">
+  <img src="../main/documentation/Training_Pipeline.png" width="500" alt="Training Pipeline">
+</p>
 
 ## Run Locally
 
