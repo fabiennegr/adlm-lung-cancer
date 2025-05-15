@@ -1,0 +1,5 @@
+_target_: src.data.nodules_image_datamodule.NoduleDataModule
+csv_path: /local_ssd/practical_wise24/lung_cancer/adlm-lung-cancer/data/dataset_all.csv
+batch_size: 2 # Needs to be divisible by the number of devices (e.g., if in a distributed setup)
+num_workers: 15
+pin_memory: False
