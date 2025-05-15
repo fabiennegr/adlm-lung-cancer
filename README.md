@@ -113,4 +113,4 @@ python scripts/file-name.py
 - `src`: Contains the source code for the project. The `train_multimodal.py` file is the main file for training the model. Inside the `src` directory, the `data` directory contains the lightning data modules to load the data, the `models` directory contains the model, and code for forward pass, and the `utils` directory contains the utility functions used in our work.
 - `notebooks`: Contains the notebooks used for the exploratory data analysis and some pre-processing steps.
 
-##### Disclaimer: Since this is a course project, the files have been hidden to eliminate any possibility of malpractice from future course attendees.
+##### Disclaimer: Since this is a course project, the data and some of the code files have been hidden to eliminate any possibility of malpractice from future course attendees.
