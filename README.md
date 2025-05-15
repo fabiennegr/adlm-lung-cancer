@@ -21,6 +21,14 @@ Lung cancer is the leading cause of cancer-related mortality worldwide. For its 
 
 In this work, we show that combining different levels of features, including clinical metadata and imaging data at the lung and nodule levels, provides a good estimation of malignancy, surpassing the predictive capability of utilizing these data sources independently. Furthermore, our analysis reveals superior performance when employing a feature extractor pretrained specifically on lung CTs compared to one pretrained on alternative domains.
 
+## Project Overview
+
+### Pre-processing Pipeline
+The outline of our pre-processing pipeline involves the identification of candidate nodules, followed by the selection of the top five most confident nodules situated within the lung region.
+
+### Multimodal Approach
+For our Multimodal Approach, we integrate this nodule-level data with lung-level and clinical metadata. Feature extraction from nodules and lung images is accomplished using MedicalNet and Pretrained ResNet 3D, respectively, while neural networks are employed to embed the metadata.
+
 ## Run Locally
 
 ### Setting Up
